@@ -24,5 +24,15 @@ namespace Ionascu_Adrian_Lab2
         {
             InitializeComponent();
         }
+
+        private void frmMain_Loaded(object sender, RoutedEventArgs e)
+        {
+            //Tema de laborator – instantiem un obiect din clasa DougnutMachine
+        }
+        private int mRaisedGlazed;
+        private int mRaisedSugar;
+        private int mFilledLemon;
+        private int mFilledChocolate;
+        private int mFilledVanilla;
     }
 }
